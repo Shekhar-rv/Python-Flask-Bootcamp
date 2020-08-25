@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Assessment Exercise 2 </title>
+</head>
+    <body>
+        <h1>Puppy Adoption Page</h1>
+        <h2>Please enter your information to adopt a puppy and we'll email you back!</h2>
+
+        <form method="GET">
+            <p>Please Note: First Name, Last Name, Email and Password are required!</p>
+            
+            <p><label for="fname">First Name:</label> 
+            <input id ="fname" type="text" name="first" placeholder="First Name">
+           
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" name="last" placeholder="Last Name"></p>
+            
+            <label for="emailtag">Email:</label> 
+            <input id ="emailtag" type="email" name="useremail" placeholder="Email here">
+            
+            <label for="passtag">Password:</label>
+            <input id="passtag" type="password" name="" placeholder="password">
+
+            <p>Are you over the age of 18?</p>
+            
+            <label for="yes">Yes:</label>
+            <input type="radio" id ="yes" name="age_choice" value="yes">
+            <!-- Input name should be the same to have the option to click only one radio button-->
+            <label for="no">No:</label>
+            <input type="radio" id="no" name="age_choice" value="no">
+
+            <p>Do you have a Credit Card or PayPal?</p>
+            <select name="payment">
+                <option value="cc">Credit Card</option>
+                <option value="pp">PayPal</option>
+            </select>
+            <p><input type="submit" name="" value="Submit feedback"></p>
+        </form>
+
+    </body>
+</html>
