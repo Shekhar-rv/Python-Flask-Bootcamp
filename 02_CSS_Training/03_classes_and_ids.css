@@ -1,0 +1,15 @@
+/* The syntax for using a class call is '.' and for id call is '#' */
+
+/* creating the firstDiv class */
+.firstDiv{
+  color: blue;
+}
+
+/* creating the secondDiv class */
+.secondDiv{
+  background-color: gray;
+}
+
+#singledout{
+ color: red;
+}

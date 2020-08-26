@@ -1,0 +1,23 @@
+/* You should use the html tag followed by {} to define its properties in CSS */
+
+h1{
+color: blue;
+}
+
+/* You can use rgb to get a different color by combining the three numbers */
+
+li{
+  color: rgb(30,50,100);
+}
+
+/* Ideally you can also find the hex values for colors online */
+
+p{
+  color: #eab01c;
+}
+
+/* You can use rgba where a(alpha) defines the transparency of the color */
+
+h4{
+  color: rgba(13,90,140,0.5);
+}

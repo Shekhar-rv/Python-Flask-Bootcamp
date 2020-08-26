@@ -1,0 +1,16 @@
+/* How font work in CSS */
+
+/* Checkout https://fonts.google.com/ */
+
+h1{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
