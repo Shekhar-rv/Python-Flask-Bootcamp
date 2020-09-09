@@ -54,4 +54,7 @@ source flask-env/bin/activate
 ```
 pip3 install -r requirements.txt
 ```
-
+**View HTML page using the following link**
+```
+https://htmlpreview.github.io/
+```
